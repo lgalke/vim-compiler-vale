@@ -6,11 +6,11 @@ Vale's output is properly parsed and displayed in vim's built-in quickfix format
 
 ## Dependencies
 
-Well, yeah: vim itself and vale, obviously.
+Well, yeah: vim itself and [vale](https://github.com/ValeLint/vale), obviously.
 
 ## Installation
 
-You can either copy the single `vale.vim` into `.vim/compiler` manually, or install the plugin with some package manager, e.g. [vim-plug](https://github.com/junegunn/vim-plug). 
+You can either copy `vale.vim` into `.vim/compiler` manually, or install the plugin with some package manager, e.g. [vim-plug](https://github.com/junegunn/vim-plug). 
 
 ## Usage
 
