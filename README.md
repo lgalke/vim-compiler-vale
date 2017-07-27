@@ -13,3 +13,11 @@ Vale's output is properly parsed and displayed in vim's built-in quickfix format
    one can set the buffer variable `b:dispatch = "vale --output line %"` in
    respective filetypes. The present compiler plugin will then be chosen
    automatically on `:Dispatch`.
+
+## Example output
+
+```vim
+paper.tex|207 col 205| vale.ComplexWords:Consider using 'has' instead of 'contains'
+paper.tex|228 col 128| vale.Editorializing:Consider removing 'various'
+paper.tex|236 col 189| vale.ComplexWords:Consider using 'idea' instead of 'concept'
+```
