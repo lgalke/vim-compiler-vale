@@ -17,7 +17,7 @@ You can either copy `vale.vim` into `.vim/compiler` manually, or install the plu
 1. The native `:compiler vale` will activate the vale prose linter. Subsequent
    invokations of `:make` will run the `vale` on the current file and display
    its output in the quickfix window.
-2. Hence, the commands `:cnext` and `:cprevious` allow to navigate through the errors.
+2. Hence, the usual quickfix commands `:copen`, `:cnext` and `:cprevious` enable navigation through the errors.
 
 ## Example quickfix list
 
