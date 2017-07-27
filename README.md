@@ -6,7 +6,7 @@ Vale's output is properly parsed and displayed in vim's built-in quickfix format
 
 ## Dependencies
 
-Well, yeah: vim itself and [vale](https://github.com/ValeLint/vale), obviously.
+Well, yeah.. vim itself and [vale](https://github.com/ValeLint/vale).
 
 ## Installation
 
