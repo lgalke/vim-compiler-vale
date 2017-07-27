@@ -1,7 +1,7 @@
 " Vim Compiler File
 " Compiler:	vale
 " Maintainer:	Lukas Galke <vim@lpag.de>
-" Last Change:	Mi, 24 Jul 2017 22:50:07 CEST
+" Last Change:	Mi, 26 Jul 2017 22:50:07 CEST
 
 if exists("current_compiler")
     finish
@@ -17,8 +17,6 @@ set cpo&vim
 
 CompilerSet makeprg=vale\ --output\ line
 CompilerSet errorformat=%f:%l:%c:%m
-
-" ,%-C%.%#
 
 let &cpo = s:cpo_save
 unlet s:cpo_save
