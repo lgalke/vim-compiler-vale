@@ -4,9 +4,13 @@ This plugin adds seamless integration of vale into vim.
 The native `:make` command can be used to invoke [vale](https://github.com/ValeLint/vale), after setting `:compiler vale`.
 Vale's output is properly parsed and displayed in vim's built-in quickfix format.
 
-## Depencies
+## Dependencies
 
 Well, yeah: vim itself and vale, obviously.
+
+## Installation
+
+You can either copy the single `vale.vim` into `.vim/compiler` manually, or install the plugin with some package manager, e.g. [vim-plug](https://github.com/junegunn/vim-plug). 
 
 ## Usage
 
